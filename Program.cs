@@ -10,7 +10,7 @@ namespace PracticeSpace
             //A simple on/off switch, depending on the operator. the == truns the switch on.
             string a = "Off";
             string b = "On";
-            if (a + b != "")
+            if (a + b != "On or Off? ")
             {
                 Console.WriteLine("Off");
             }
@@ -18,6 +18,7 @@ namespace PracticeSpace
             {
                 Console.WriteLine("On ");
             }
+
         }
     }
 }
